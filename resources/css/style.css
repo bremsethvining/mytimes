@@ -17,12 +17,20 @@ header {
   border-bottom: 2px solid black;
   padding: 10px 20px;
   margin: 0 auto;
+  z-index: 10;
+  background-color: white;
+  opacity: 1;
 }
 
 .logo_title {
   display: inline-flex;
   align-items: center;
   color: MediumAquamarine;
+
+}
+
+.logo_title span {
+  margin: 10px;
 }
 
 .main_nav {
@@ -34,4 +42,69 @@ header {
 .main_nav span{
   display: inline-block;
   margin: 10px;
+}
+
+a {
+  color: black;
+}
+
+.main_body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  top: 120px;
+  margin: 0 auto;
+  width: 100%;
+  border: 2px solid black;
+
+}
+
+.column {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+  border: 2px solid black;
+  margin-top: 30px;
+  margin-right: 30px;
+  flex-wrap: wrap;
+
+}
+
+.large {
+  width: 630px;
+  margin: left: 0;
+
+}
+
+.medium {
+  width: 300px;
+}
+
+.small {
+  width: 240px;
+}
+
+.lead_image {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  background-image: url("../images/phish.png");
+  height: 300px;
+
+}
+
+.lead_image .image_caption {
+   color: white;
+   font-size: 30px;
+   margin: 20px;
+}
+
+
+
+div {
+  border: 2px solid black;
 }
