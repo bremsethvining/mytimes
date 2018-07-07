@@ -138,15 +138,30 @@ a {
 .secondary_stories {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .sub_column {
   display: inline-flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-basis: 280px;
+}
+
+.cat_image {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 300px;
+  justify-content: center;
+  background-image: url("../images/cat.png");
+  width: 100%;
 }
 
 div {
-  
+
+}
+
+p {
+  margin: 10px;
 }
